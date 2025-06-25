@@ -10,8 +10,6 @@
       
    body {
             background-color: black;
-          
-            
             
         }
         canvas {
@@ -52,7 +50,30 @@
     padding-right: 40px;
     font-family: Poppins;
     font-weight: 500;
+    
   }
+  .home{
+    transition: transform .4s;
+  }
+  .home:hover{
+    transform: scale(1.1);
+  }
+
+    .contact{
+    transition: transform .4s;
+  }
+  .contact:hover{
+    transform: scale(1.1);
+  }
+
+    .works{
+    transition: transform .4s;
+  }
+  .works:hover{
+    transform: scale(1.1);
+  }
+
+
 
   .title-wrapper{
     display: flex;
@@ -193,13 +214,6 @@ footer p {
   letter-spacing: 1.5px;
 }
 
-/* .contst{
-  color: #ffffff;
-  font-family: helvetica;
-  margin-left: 58px;
-  font-size: 1.3em;
-  font-weight: 150;
-} */
 
 .formcarry-container * {
   box-sizing: border-box;
@@ -368,12 +382,24 @@ label{
 .cbutton{
   background-color: #ffffff;
   border-radius: 5px;
+  margin-bottom: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform .4s;
+  
+}
+
+.cbutton:hover{
+  background-color: #ffffff;
+  transform: scale(1.1);
+  border-radius: 5px;
   margin-bottom: -10px;
-  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 
 
@@ -382,8 +408,6 @@ label{
   flex-direction: column;
   justify-content:space-around ;
   align-items: center;
-
-  
   background-color: #ffffff;
 }
 
@@ -422,8 +446,18 @@ label{
 .wbutton{
   background-color: #000000;
   border-radius: 5px;
-  margin-bottom: -10px;
-  width: 25%;
+  margin-bottom: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  transition: transform .4s;
+   
+}
+.wbutton:hover{
+   background-color: #000000;
+  transform: scale(1.1);
+  border-radius: 5px;
+  margin-bottom: -10px; 
   display: flex;
   justify-content: center;
   align-items: center;
