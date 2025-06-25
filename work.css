@@ -76,6 +76,14 @@
     margin-top: 30px;
   }
 
+  .hoover{
+   transition:transform .4s;
+  }
+
+  .hoover:hover{
+    transform: scale(1.05);
+  }
+
 /* canvas {
             position: absolute;
             top: 0;
